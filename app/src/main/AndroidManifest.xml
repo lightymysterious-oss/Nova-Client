@@ -52,7 +52,7 @@
 
             <property
                 android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
-                android:value="NovaRelay Capture" />
+                android:value="Paper client Capture" />
 
             <intent-filter>
                 <action android:name="com.radiantbyte.novarelay.capture.start" />
