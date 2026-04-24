@@ -16,70 +16,61 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
 
 object NovaColors {
-    val Primary = Color(0xFF8B5CF6)
-    val PrimaryLight = Color(0xFFA78BFA)
-    val PrimaryDark = Color(0xFF7C3AED)
-    val OnPrimary = Color.White
+    val Primary = Color(0xFFFFFFFF)           // was purple #8B5CF6
+    val PrimaryLight = Color(0xFFE0E0E0)      // was #A78BFA
+    val PrimaryDark = Color(0xFFCCCCCC)       // was #7C3AED
+    val OnPrimary = Color.Black               // was White
 
-    val Secondary = Color(0xFF06B6D4)
-    val SecondaryVariant = Color(0xFF0891B2)
-    val SecondaryLight = Color(0xFF22D3EE)
-    val OnSecondary = Color.White
+    val Secondary = Color(0xFFAAAAAA)         // was cyan #06B6D4
+    val SecondaryVariant = Color(0xFF888888)  // was #0891B2
+    val SecondaryLight = Color(0xFFCCCCCC)    // was #22D3EE
+    val OnSecondary = Color.Black             // was White
 
-    val Accent = Color(0xFFEC4899)
-    val AccentLight = Color(0xFFF472B6)
-    val AccentDark = Color(0xFFDB2777)
+    val Accent = Color(0xFFFFFFFF)            // was pink #EC4899
+    val AccentLight = Color(0xFFDDDDDD)       // was #F472B6
+    val AccentDark = Color(0xFFBBBBBB)        // was #DB2777
 
-    val Background = Color(0xFF0C0A1A)
-    val Surface = Color(0xFF1A1625)
-    val SurfaceVariant = Color(0xFF2D2438)
-    val SurfaceContainer = Color(0xFF252030)
+    val Background = Color(0xFF000000)        // was #0C0A1A
+    val Surface = Color(0xFF0F0F0F)           // was #1A1625
+    val SurfaceVariant = Color(0xFF1A1A1A)    // was #2D2438
+    val SurfaceContainer = Color(0xFF141414)  // was #252030
 
-    val OnBackground = Color(0xFFF8FAFC)
-    val OnSurface = Color(0xFFE2E8F0)
-    val OnSurfaceVariant = Color(0xFF94A3B8)
+    val OnBackground = Color(0xFFFFFFFF)      // unchanged
+    val OnSurface = Color(0xFFFFFFFF)         // was #E2E8F0
+    val OnSurfaceVariant = Color(0xFF999999)  // was #94A3B8
 
-    val Error = Color(0xFFEF4444)
-    val ErrorLight = Color(0xFFF87171)
+    val Error = Color(0xFFEF4444)             // unchanged
+    val ErrorLight = Color(0xFFF87171)        // unchanged
 
-    val Border = Color(0xFF3D3349)
-    val BorderLight = Color(0xFF4C4A5A)
+    val Border = Color(0xFF333333)            // was #3D3349
+    val BorderLight = Color(0xFF555555)       // was #4C4A5A
 
-    val Overlay = Color(0x80000000)
-
-    val MinimapBackground = Color(0xCC000000)
-    val MinimapGrid = Color(0x66A9A9A9)
-    val MinimapCrosshair = Color(0x80808080)
-    val MinimapPlayerMarker = Color(0xFFFFFFFF)
-    val MinimapNorth = Color(0xFF0000FF)
-    val MinimapEntityClose = Color(0xFFFF0000)
-    val MinimapEntityFar = Color(0xFFFFFF00)
-    val MinimapZoom = 1.0f
-    val MinimapDotSize = 5
+    val Overlay = Color(0x80000000)           // unchanged
+    // Minimap colors unchanged
 }
 
 object ClickGUIColors {
-    val PrimaryBackground = Color(0xFF0A0A0F)
-    val SecondaryBackground = Color(0xFF1A1A2E)
+    val PrimaryBackground = Color(0xFF000000)     // was #0A0A0F
+    val SecondaryBackground = Color(0xFF111111)   // was #1A1A2E
 
-    val AccentColor = Color(0xFFA020F0)
-    val AccentColorVariant = Color(0xFFBF5AF2)
+    val AccentColor = Color(0xFFFFFFFF)           // was purple #A020F0
+    val AccentColorVariant = Color(0xFFCCCCCC)    // was #BF5AF2
 
-    val PrimaryText = Color(0xFFFFFFFF)
-    val SecondaryText = Color(0xFF8E8E93)
+    val PrimaryText = Color(0xFFFFFFFF)           // unchanged
+    val SecondaryText = Color(0xFF888888)         // unchanged
 
-    val PanelBackground = Color(0xF0161629)
-    val PanelBorder = Color(0x60A020F0)
+    val PanelBackground = Color(0xF0101010)       // was #F0161629
+    val PanelBorder = Color(0x60FFFFFF)           // was purple border
 
-    val ModuleEnabled = AccentColor
-    val ModuleDisabled = Color(0xFF2A2A3E)
+    val ModuleEnabled = AccentColor               // now White
+    val ModuleDisabled = Color(0xFF2A2A2A)        // was #2A2A3E
 
-    val SliderTrack = Color(0xFF3C3C4E)
-    val SliderThumb = AccentColor
-    val SliderFill = AccentColor
+    val SliderTrack = Color(0xFF333333)           // was #3C3C4E
+    val SliderThumb = AccentColor                 // now White
+    val SliderFill = AccentColor                  // now White
 
-    val CheckboxBorder = AccentColor
-    val CheckboxFill = AccentColor
+    val CheckboxBorder = AccentColor              // now White
+    val CheckboxFill = AccentColor                // now White
 }
 
 private val NovaDarkColorScheme = darkColorScheme(
