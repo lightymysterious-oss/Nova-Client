@@ -66,7 +66,7 @@ class WaterMarkOverlay : OverlayWindow() {
     override val layoutParams: WindowManager.LayoutParams
         get() = _layoutParams
 
-    private var customText by mutableStateOf("Nova Client")
+    private var customText by mutableStateOf("Paper client v1.0")
     private var showVersion by mutableStateOf(true)
     private var showTime by mutableStateOf(false)
     private var position by mutableStateOf(WaterMarkModule.Position.TOP_LEFT)
