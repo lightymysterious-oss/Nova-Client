@@ -79,7 +79,7 @@ private fun CompactNovaHeader() {
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         Text(
-            text = "Nova",
+            text = "Paper client",
             style = MaterialTheme.typography.titleSmall,
             fontWeight = FontWeight.Light,
             color = NovaColors.Primary.copy(alpha = glowAlpha)
