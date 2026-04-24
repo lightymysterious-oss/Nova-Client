@@ -335,7 +335,7 @@ fun HomePageContent() {
                 onDismissRequest = { showConnectionDialog = false },
                 title = {
                     Text(
-                        "Nova Relay Connected",
+                        "Paper Client Connected",
                         style = MaterialTheme.typography.titleLarge
                     )
                 },
@@ -444,12 +444,12 @@ private fun WelcomeCard() {
                 )
                 Column {
                     Text(
-                        "Welcome to Nova Client",
+                        "Paper client v1.0",
                         style = MaterialTheme.typography.headlineMedium,
                         color = NovaColors.OnSurface
                     )
                     Text(
-                        "Enhanced Minecraft Bedrock Experience",
+                        "Paper client for mcpe",
                         style = MaterialTheme.typography.bodyLarge,
                         color = NovaColors.Primary
                     )
