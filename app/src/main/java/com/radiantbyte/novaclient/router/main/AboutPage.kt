@@ -85,12 +85,12 @@ fun AboutPageContent() {
                             horizontalAlignment = Alignment.CenterHorizontally
                         ) {
                             Text(
-                                "Nova Client",
+                                "Paper client v1.0",
                                 style = MaterialTheme.typography.headlineLarge,
                                 color = NovaColors.Primary
                             )
                             Text(
-                                "A powerful and feature-rich Minecraft client designed for enhanced gameplay experience.",
+                                "A utility hack client for minecraft pe",
                                 style = MaterialTheme.typography.bodyLarge,
                                 color = NovaColors.OnSurface
                             )
@@ -220,17 +220,17 @@ fun AboutPageContent() {
                                 color = NovaColors.OnSurface
                             )
                             Text(
-                                "Special thanks to ",
+                                " ",
                                 style = MaterialTheme.typography.bodySmall,
                                 color = NovaColors.OnSurfaceVariant
                             )
                             Text(
-                                "一剪沐橙 — this project would not have been possible without her contributions.",
+                                "Dahen - the creator of paper client",
                                 style = MaterialTheme.typography.bodySmall,
                                 color = NovaColors.OnSurfaceVariant
                             )
                             Text(
-                                "View on GitHub",
+                                "github release soon",
                                 style = MaterialTheme.typography.labelSmall,
                                 color = NovaColors.Secondary
                             )
@@ -241,7 +241,7 @@ fun AboutPageContent() {
                         onClick = {
                             val intent = Intent(
                                 Intent.ACTION_VIEW,
-                                "https://github.com/TeamNovaMC/Nova-Client".toUri()
+                                "github not yet brochacho".toUri()
                             )
                             context.startActivity(intent)
                         },
@@ -256,12 +256,12 @@ fun AboutPageContent() {
                         ) {
                             Column {
                                 Text(
-                                    "View Source Code",
+                                    "",
                                     style = MaterialTheme.typography.titleMedium,
                                     color = NovaColors.OnSurface
                                 )
                                 Text(
-                                    "GitHub Repository",
+                                    "",
                                     style = MaterialTheme.typography.bodySmall,
                                     color = NovaColors.OnSurfaceVariant
                                 )
