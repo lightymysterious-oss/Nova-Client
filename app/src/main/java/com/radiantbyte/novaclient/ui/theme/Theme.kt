@@ -46,7 +46,14 @@ object NovaColors {
     val BorderLight = Color(0xFF555555)       // was #4C4A5A
 
     val Overlay = Color(0x80000000)           // unchanged
-    // Minimap colors unchanged
+
+    // Minimap colors
+    val MinimapBackground = Color(0xFF1A1A1A) // Dark background for minimap
+    val MinimapGrid = Color(0xFF444444)       // Grid lines color
+    val MinimapCrosshair = Color(0xFF00FF00)  // Crosshair color (green)
+    val MinimapPlayerMarker = Color(0xFFFFFFFF) // Player marker color (white)
+    val MinimapEntityClose = Color(0xFF00FF00) // Close entity color (green)
+    val MinimapEntityFar = Color(0xFFFFFF00)   // Far entity color (yellow)
 }
 
 object ClickGUIColors {
