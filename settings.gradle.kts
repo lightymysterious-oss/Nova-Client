@@ -27,7 +27,7 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "NovaClient"
+rootProject.name = "HyphenClient"
 include(":app")
 include(":relay")
 include(

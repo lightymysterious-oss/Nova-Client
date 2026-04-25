@@ -25,7 +25,7 @@
         android:persistent="true"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.NovaClient"
+        android:theme="@style/Theme.HyphenClient"
         tools:targetApi="tiramisu">
 
         <activity
@@ -52,11 +52,11 @@
 
             <property
                 android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
-                android:value="Paper client Capture" />
+                android:value="Hyphen Client Capture" />
 
             <intent-filter>
-                <action android:name="com.radiantbyte.novarelay.capture.start" />
-                <action android:name="com.radiantbyte.novarelay.capture.stop" />
+                <action android:name="com.radiantbyte.hyphenrelay.capture.start" />
+                <action android:name="com.radiantbyte.hyphenrelay.capture.stop" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>

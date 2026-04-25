@@ -1,10 +1,10 @@
 <p align="center">
-  <img src="images/Nova_Icon.png" alt="Nova Client Logo" width="200"/>
+  <img src="images/Hyphen_Icon.png" alt="Hyphen Client Logo" width="200"/>
 </p>
 
-# Nova Client: Advanced MITM Utility for Minecraft Bedrock
+# Hyphen Client: Advanced MITM Utility for Minecraft Bedrock
 
-**Nova Client** is a powerful open-source utility client designed for **Minecraft Bedrock Edition**. It leverages a sophisticated **MITM (Man-in-the-Middle)** approach to deliver advanced gameplay enhancements and utilities — **without modifying the game's memory or requiring root access.**
+**Hyphen Client** is a powerful open-source utility client designed for **Minecraft Bedrock Edition**. It leverages a sophisticated **MITM (Man-in-the-Middle)** approach to deliver advanced gameplay enhancements and utilities — **without modifying the game's memory or requiring root access.**
 
 ---
 
@@ -18,7 +18,7 @@ Special thanks to [一剪沐橙](https://github.com/mucute-qwq) — this project
 
 - **Non-Intrusive Enhancement**: Works seamlessly without altering the Minecraft client, keeping your installation clean and secure.
 - **Advanced Packet Manipulation**: Provides comprehensive control over packet-level data for enhanced gameplay.
-- **Dual GUI System**: Choose between Classic, Nova, and ClickGUI themes for your preferred user experience.
+- **Dual GUI System**: Choose between Classic, Hyphen, and ClickGUI themes for your preferred user experience.
 - **Extensive Module Library**: Wide range of utilities including combat, motion, visual, particle, effects, and miscellaneous enhancements.
 - **Real-Time Configuration**: Live adjustment of module settings without restarting the game.
 - **Smooth Performance**: Optimized for stable connections and minimal latency.
@@ -56,19 +56,19 @@ Nova Client includes comprehensive modules organized into categories:
 Choose between three distinct interface themes:
 
 - **Classic Theme**: Traditional, familiar interface design
-- **Nova Theme**: Modern glassmorphism design with animations and enhanced visuals
+- **Hyphen Theme**: Modern glassmorphism design with animations and enhanced visuals
 - **ClickGUI Theme**: Compact, clickable interface optimized for quick access
 
 ---
 
 ## License
 
-Nova Client is licensed under the **GNU General Public License v3.0 (GPLv3)**.
+Hyphen Client is licensed under the **GNU General Public License v3.0 (GPLv3)**.
 
 ### ✅ Permitted Uses
 
 - Personal use and modification.
-- Creating content (e.g., videos or showcases) using Nova Client.
+- Creating content (e.g., videos or showcases) using Hyphen Client.
 - Redistributing the original or modified source code, provided you include the same GPLv3 license and make the source code available.
 
 ### ❌ Prohibited Uses
@@ -100,15 +100,15 @@ Any use of this program that violates applicable laws, terms of service, or caus
 ## 🤝 Contributions
 
 We welcome and appreciate contributions from the community!  
-Whether it's code, bug reports, suggestions, or documentation — every contribution helps improve **Nova Client**.
+Whether it's code, bug reports, suggestions, or documentation — every contribution helps improve **Hyphen Client**.
 
 ---
 
 ## ⚠️ Disclaimer
 
-Nova Client is not affiliated with Mojang Studios, Microsoft, or any official Minecraft development team.
+Hyphen Client is not affiliated with Mojang Studios, Microsoft, or any official Minecraft development team.
 
-Use Nova Client at your **own risk**.  
+Use Hyphen Client at your **own risk**.  
 We are **not responsible** for any bans, penalties, or issues that may result from using this client.
 
 **Always follow server rules and respect community standards.**

@@ -10,11 +10,11 @@ plugins {
 }
 
 android {
-    namespace = "com.radiantbyte.novaclient"
+    namespace = "com.radiantbyte.hyphenclient"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.radiantbyte.novaclient"
+        applicationId = "com.radiantbyte.hyphenclient"
         minSdk = 28
         //noinspection OldTargetApi,EditedTargetSdkVersion
         targetSdk = 35

@@ -1,10 +1,10 @@
-package com.radiantbyte.novaclient.application
+package com.radiantbyte.hyphenclient.application
 
 import android.app.Application
 import android.content.Intent
 import android.os.Build
 import android.os.Process
-import com.radiantbyte.novaclient.activity.CrashHandlerActivity
+import com.radiantbyte.hyphenclient.activity.CrashHandlerActivity
 
 class AppContext : Application(), Thread.UncaughtExceptionHandler {
 

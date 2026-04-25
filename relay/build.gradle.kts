@@ -3,7 +3,7 @@ plugins {
     kotlin("jvm")
 }
 
-group = "com.radiantbyte.novarelay"
+group = "com.radiantbyte.hyphenrelay"
 version = "1.0-SNAPSHOT"
 
 java {

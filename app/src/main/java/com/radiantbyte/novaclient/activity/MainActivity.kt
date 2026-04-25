@@ -1,4 +1,4 @@
-package com.radiantbyte.novaclient.activity
+package com.radiantbyte.hyphenclient.activity
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -14,8 +14,8 @@ import androidx.core.net.toUri
 import androidx.core.view.WindowCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.core.view.WindowInsetsControllerCompat
-import com.radiantbyte.novaclient.navigation.Navigation
-import com.radiantbyte.novaclient.ui.theme.NovaClientTheme
+import com.radiantbyte.hyphenclient.navigation.Navigation
+import com.radiantbyte.hyphenclient.ui.theme.HyphenClientTheme
 
 class MainActivity : ComponentActivity() {
 
@@ -26,7 +26,7 @@ class MainActivity : ComponentActivity() {
         setupImmersiveMode()
         checkBatteryOptimizations()
         setContent {
-            NovaClientTheme {
+            HyphenClientTheme {
                 Navigation()
             }
         }

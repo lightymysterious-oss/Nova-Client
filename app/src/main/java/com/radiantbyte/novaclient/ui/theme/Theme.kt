@@ -1,4 +1,4 @@
-package com.radiantbyte.novaclient.ui.theme
+package com.radiantbyte.hyphenclient.ui.theme
 
 import android.os.Build
 import androidx.compose.material3.MaterialTheme
@@ -15,7 +15,7 @@ import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
 
-object NovaColors {
+object HyphenColors {
     val Primary = Color(0xFFFFFFFF)           // was purple #8B5CF6
     val PrimaryLight = Color(0xFFE0E0E0)      // was #A78BFA
     val PrimaryDark = Color(0xFFCCCCCC)       // was #7C3AED
@@ -80,51 +80,51 @@ object ClickGUIColors {
     val CheckboxFill = AccentColor                // now White
 }
 
-private val NovaDarkColorScheme = darkColorScheme(
-    primary = NovaColors.Primary,
-    onPrimary = NovaColors.OnPrimary,
-    primaryContainer = NovaColors.PrimaryDark,
-    onPrimaryContainer = NovaColors.PrimaryLight,
-    secondary = NovaColors.Secondary,
-    onSecondary = NovaColors.OnSecondary,
-    secondaryContainer = NovaColors.SecondaryVariant,
-    onSecondaryContainer = NovaColors.SecondaryLight,
-    tertiary = NovaColors.Accent,
+private val HyphenDarkColorScheme = darkColorScheme(
+    primary = HyphenColors.Primary,
+    onPrimary = HyphenColors.OnPrimary,
+    primaryContainer = HyphenColors.PrimaryDark,
+    onPrimaryContainer = HyphenColors.PrimaryLight,
+    secondary = HyphenColors.Secondary,
+    onSecondary = HyphenColors.OnSecondary,
+    secondaryContainer = HyphenColors.SecondaryVariant,
+    onSecondaryContainer = HyphenColors.SecondaryLight,
+    tertiary = HyphenColors.Accent,
     onTertiary = Color.White,
-    tertiaryContainer = NovaColors.AccentDark.copy(alpha = 0.2f),
-    onTertiaryContainer = NovaColors.AccentLight,
-    background = NovaColors.Background,
-    onBackground = NovaColors.OnBackground,
-    surface = NovaColors.Surface,
-    onSurface = NovaColors.OnSurface,
-    surfaceVariant = NovaColors.SurfaceVariant,
-    onSurfaceVariant = NovaColors.OnSurfaceVariant,
-    surfaceContainer = NovaColors.SurfaceContainer,
-    error = NovaColors.Error,
+    tertiaryContainer = HyphenColors.AccentDark.copy(alpha = 0.2f),
+    onTertiaryContainer = HyphenColors.AccentLight,
+    background = HyphenColors.Background,
+    onBackground = HyphenColors.OnBackground,
+    surface = HyphenColors.Surface,
+    onSurface = HyphenColors.OnSurface,
+    surfaceVariant = HyphenColors.SurfaceVariant,
+    onSurfaceVariant = HyphenColors.OnSurfaceVariant,
+    surfaceContainer = HyphenColors.SurfaceContainer,
+    error = HyphenColors.Error,
     onError = Color.White,
-    errorContainer = NovaColors.Error.copy(alpha = 0.2f),
-    onErrorContainer = NovaColors.ErrorLight,
-    outline = NovaColors.Border,
-    outlineVariant = NovaColors.BorderLight.copy(alpha = 0.5f),
-    scrim = NovaColors.Overlay,
-    inverseSurface = NovaColors.OnSurface,
-    inverseOnSurface = NovaColors.Surface,
-    inversePrimary = NovaColors.PrimaryDark
+    errorContainer = HyphenColors.Error.copy(alpha = 0.2f),
+    onErrorContainer = HyphenColors.ErrorLight,
+    outline = HyphenColors.Border,
+    outlineVariant = HyphenColors.BorderLight.copy(alpha = 0.5f),
+    scrim = HyphenColors.Overlay,
+    inverseSurface = HyphenColors.OnSurface,
+    inverseOnSurface = HyphenColors.Surface,
+    inversePrimary = HyphenColors.PrimaryDark
 )
 
-private val NovaLightColorScheme = lightColorScheme(
-    primary = NovaColors.Primary,
-    onPrimary = NovaColors.OnPrimary,
-    primaryContainer = NovaColors.Primary.copy(alpha = 0.1f),
-    onPrimaryContainer = NovaColors.Primary,
-    secondary = NovaColors.Secondary,
-    onSecondary = NovaColors.OnSecondary,
-    secondaryContainer = NovaColors.Secondary.copy(alpha = 0.1f),
-    onSecondaryContainer = NovaColors.Secondary,
-    tertiary = NovaColors.Accent,
-    onTertiary = NovaColors.OnPrimary,
-    tertiaryContainer = NovaColors.Accent.copy(alpha = 0.1f),
-    onTertiaryContainer = NovaColors.Accent,
+private val HyphenLightColorScheme = lightColorScheme(
+    primary = HyphenColors.Primary,
+    onPrimary = HyphenColors.OnPrimary,
+    primaryContainer = HyphenColors.Primary.copy(alpha = 0.1f),
+    onPrimaryContainer = HyphenColors.Primary,
+    secondary = HyphenColors.Secondary,
+    onSecondary = HyphenColors.OnSecondary,
+    secondaryContainer = HyphenColors.Secondary.copy(alpha = 0.1f),
+    onSecondaryContainer = HyphenColors.Secondary,
+    tertiary = HyphenColors.Accent,
+    onTertiary = HyphenColors.OnPrimary,
+    tertiaryContainer = HyphenColors.Accent.copy(alpha = 0.1f),
+    onTertiaryContainer = HyphenColors.Accent,
     background = Color(0xFFFAFAFA),
     onBackground = Color(0xFF1A1A1A),
     surface = Color(0xFFFFFFFF),
@@ -132,13 +132,13 @@ private val NovaLightColorScheme = lightColorScheme(
     surfaceVariant = Color(0xFFF5F5F5),
     onSurfaceVariant = Color(0xFF666666),
     surfaceContainer = Color(0xFFE5E5E5),
-    error = NovaColors.Error,
-    onError = NovaColors.OnPrimary,
+    error = HyphenColors.Error,
+    onError = HyphenColors.OnPrimary,
     outline = Color(0xFFE0E0E0),
     outlineVariant = Color(0xFFF0F0F0)
 )
 
-val NovaTypography = Typography(
+val HyphenTypography = Typography(
     displayLarge = TextStyle(
         fontFamily = FontFamily.Default,
         fontWeight = FontWeight.Bold,
@@ -240,7 +240,7 @@ val NovaTypography = Typography(
 )
 
 @Composable
-fun NovaClientTheme(
+fun HyphenClientTheme(
     darkTheme: Boolean = true,
     dynamicColor: Boolean = false,
     content: @Composable () -> Unit
@@ -250,13 +250,13 @@ fun NovaClientTheme(
             val context = LocalContext.current
             if (darkTheme) dynamicDarkColorScheme(context) else dynamicLightColorScheme(context)
         }
-        darkTheme -> NovaDarkColorScheme
-        else -> NovaLightColorScheme
+        darkTheme -> HyphenDarkColorScheme
+        else -> HyphenLightColorScheme
     }
 
     MaterialTheme(
         colorScheme = colorScheme,
-        typography = NovaTypography,
+        typography = HyphenTypography,
         content = content
     )
 }
